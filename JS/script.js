@@ -5,5 +5,6 @@ var quotesArray = [
   'Happiness increased 200% since NAPS began promoting siestas. — National Science Review',
   'NAPS has ushered in a new era of sleep. — USA Today',
   'Not surprisingly, more siestas means more productivity. — Wall Street Journal',
-  'NAPS is doing the hard work of helping people get the rest they need. — U.S. News'
+  'NAPS is doing the hard work of helping people get the rest they need. — U.S. News',
 ];
+var randomNumber = Math.floor(Math.random() * quotesArray.length);
