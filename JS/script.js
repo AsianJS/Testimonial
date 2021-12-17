@@ -8,3 +8,4 @@ var quotesArray = [
   'NAPS is doing the hard work of helping people get the rest they need. — U.S. News',
 ];
 var randomNumber = Math.floor(Math.random() * quotesArray.length);
+document.getElementById('press-quote').textContent = quotesArray[randomNumber];
